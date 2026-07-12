@@ -1,4 +1,5 @@
 ```astro
+
 ---
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
@@ -7,68 +8,104 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <BaseLayout 
 	title="About | Elijah Alford" 
-	description="About Elijah Alford, QA Engineer specializing in software quality and testing."
+	description="About Elijah Alford, QA Engineer specializing in software quality, testing, and software development."
 >
 	<div class="stack gap-20">
 		<main class="wrapper about">
+
 			<Hero
 				title="About"
-				tagline="Thanks for stopping by. Learn more about my background, experience, and passion for software quality."
+				tagline="Thanks for stopping by. Learn more about my background, experience, and passion for software quality and development."
 			>
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
+					src="/assets/profilepic.jpg"
 					alt="Elijah Alford working as a QA Engineer"
 				/>
 			</Hero>
 
+
 			<section>
 				<h2 class="section-title">Background</h2>
+
 				<div class="content">
 					<p>
-						My name is Elijah Alford, and I am a QA Engineer based in Greensboro, North Carolina.
-						I specialize in software testing, quality assurance, and helping teams deliver reliable
-						and user-friendly applications.
+						My name is Elijah Alford, and I am a QA Engineer and software developer
+						based in Greensboro, North Carolina. I specialize in software testing,
+						quality assurance, and building reliable, user-focused applications.
 					</p>
 
 					<p>
-						I have experience with manual testing, test planning, bug reporting, and improving
-						software quality through careful analysis and attention to detail. I enjoy finding
-						issues before they impact users and collaborating with development teams to create
-						better products.
+						I have experience designing test plans, writing test cases, performing
+						functional and regression testing, API testing, and improving software
+						quality through detailed analysis and problem solving.
 					</p>
 
 					<p>
-						My goal is to continue growing as a quality professional by learning new testing
-						technologies, automation tools, and modern software development practices.
+						My development background allows me to collaborate effectively with
+						engineering teams while understanding both the user experience and the
+						technical side of software applications.
 					</p>
 				</div>
 			</section>
+
 
 			<section>
 				<h2 class="section-title">Education</h2>
+
 				<div class="content">
 					<p>
-						Computer Science / Software Development background with a focus on software quality
-						assurance, testing methodologies, and technology.
+						Bachelor of Science in Computer Science with a focus on software
+						development, quality assurance, testing methodologies, and modern
+						software engineering practices.
 					</p>
 				</div>
 			</section>
 
+
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Technical Skills</h2>
+
 				<div class="content">
 					<p>
-						Manual Testing, Test Case Development, Bug Tracking, Quality Assurance,
-						Web Testing, API Testing, Software Development Life Cycle (SDLC),
-						Agile Methodologies, and Problem Solving.
+						<strong>Frontend:</strong>
+						HTML, CSS, JavaScript, React
+					</p>
+
+					<p>
+						<strong>Backend:</strong>
+						Java, Node.js, FastAPI, PHP (Laravel)
+					</p>
+
+					<p>
+						<strong>Databases:</strong>
+						PostgreSQL, SQL, Neon
+					</p>
+
+					<p>
+						<strong>Tools:</strong>
+						Git, Postman, VS Code, IntelliJ IDEA, Google Cloud Platform
+					</p>
+
+					<p>
+						<strong>Concepts:</strong>
+						Responsive Design, UX/UI Principles, MVC Architecture, REST APIs
+					</p>
+
+					<p>
+						<strong>Quality Assurance:</strong>
+						Manual Testing, Functional Testing, Regression Testing,
+						Test Case Development, Bug Reporting, API Testing,
+						Automation Testing, SDLC, STLC, Agile Methodologies
 					</p>
 				</div>
 			</section>
+
 
 			<section class="contact">
 				<h2 class="section-title">Contact Me</h2>
+
 				<div class="content">
 					<p>
 						Email:
@@ -87,8 +124,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 							linkedin.com/in/elijah-alford-594579260
 						</a>
 					</p>
+
+					<p>
+						GitHub:
+						<a href="https://github.com/ElijahAlford765">
+							github.com/ElijahAlford765
+						</a>
+					</p>
 				</div>
 			</section>
+
 
 			<footer>
 				<p>
@@ -98,9 +143,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 					</a>
 				</p>
 			</footer>
+
 		</main>
 
 		<ContactCTA />
+
 	</div>
 </BaseLayout>
 ```
