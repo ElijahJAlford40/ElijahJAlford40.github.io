@@ -1,3 +1,4 @@
+```astro
 ---
 import { getCollection } from 'astro:content';
 import ContactCTA from '../components/ContactCTA.astro';
@@ -12,16 +13,18 @@ const projects = (await getCollection('work')).sort(
 ---
 
 <BaseLayout
-	title="My Work | Jeanine White"
-	description="Learn about Jeanine White's most recent projects"
+	title="QA Projects | Elijah Alford"
+	description="Explore Elijah Alford's software quality assurance and testing projects."
 >
 	<div class="stack gap-20">
 		<main class="wrapper stack gap-8">
+
 			<Hero
-				title="My Work"
-				tagline="See my most recent projects below to get an idea of my past experience."
+				title="QA Projects"
+				tagline="Explore my software testing projects, automation frameworks, and quality assurance experience using modern testing tools and methodologies."
 				align="start"
 			/>
+
 			<Grid variant="offset">
 				{
 					projects.map((project) => (
@@ -31,7 +34,11 @@ const projects = (await getCollection('work')).sort(
 					))
 				}
 			</Grid>
+
 		</main>
+
 		<ContactCTA />
+
 	</div>
 </BaseLayout>
+```

@@ -1,21 +1,25 @@
+```astro
 ---
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout 
+	title="About | Elijah Alford" 
+	description="About Elijah Alford, QA Engineer specializing in software quality and testing."
+>
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
 				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				tagline="Thanks for stopping by. Learn more about my background, experience, and passion for software quality."
 			>
 				<img
 					width="1553"
 					height="873"
 					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					alt="Elijah Alford working as a QA Engineer"
 				/>
 			</Hero>
 
@@ -23,42 +27,84 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed
-						do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						My name is Elijah Alford, and I am a QA Engineer based in Greensboro, North Carolina.
+						I specialize in software testing, quality assurance, and helping teams deliver reliable
+						and user-friendly applications.
 					</p>
+
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						I have experience with manual testing, test planning, bug reporting, and improving
+						software quality through careful analysis and attention to detail. I enjoy finding
+						issues before they impact users and collaborating with development teams to create
+						better products.
 					</p>
+
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						My goal is to continue growing as a quality professional by learning new testing
+						technologies, automation tools, and modern software development practices.
 					</p>
 				</div>
 			</section>
+
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>
+						Computer Science / Software Development background with a focus on software quality
+						assurance, testing methodologies, and technology.
+					</p>
 				</div>
 			</section>
+
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<p>
+						Manual Testing, Test Case Development, Bug Tracking, Quality Assurance,
+						Web Testing, API Testing, Software Development Life Cycle (SDLC),
+						Agile Methodologies, and Problem Solving.
+					</p>
 				</div>
 			</section>
+
+			<section class="contact">
+				<h2 class="section-title">Contact Me</h2>
+				<div class="content">
+					<p>
+						Email:
+						<a href="mailto:jaleelalford40@gmail.com">
+							jaleelalford40@gmail.com
+						</a>
+					</p>
+
+					<p>
+						Phone: 910-286-1661
+					</p>
+
+					<p>
+						LinkedIn:
+						<a href="https://www.linkedin.com/in/elijah-alford-594579260/">
+							linkedin.com/in/elijah-alford-594579260
+						</a>
+					</p>
+				</div>
+			</section>
+
+			<footer>
+				<p>
+					© 2026 Elijah Alford |
+					<a href="https://github.com/ElijahAlford765">
+						GitHub
+					</a>
+				</p>
+			</footer>
 		</main>
 
 		<ContactCTA />
 	</div>
 </BaseLayout>
+```
+
 
 <style>
 	.about {
